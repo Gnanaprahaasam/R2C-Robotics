@@ -93,6 +93,7 @@ const Robotics = () => {
                                 <h5 class="keyword">Basic Level</h5>
                                 <p class="description">The perfect course for your kid to start mastering skills in the world of Robotics</p>
                             </div>
+                            <h6 className="px-3 mb-3 bold">Mode Online / Offline</h6>
                             <div class="row px-3 flex-nowrap">
                                 <div class="col d-flex flex-column fw-bold align-items-center">
                                     <span class="keyword">10+</span>
@@ -134,7 +135,10 @@ const Robotics = () => {
                             </div>
                             <div class=" p-3">
                                 <h5 class="keyword">Intermediate Level</h5>
-                                <p class="description">The ideal course for your child to deepen their skills and expertise in Robotics</p></div><div class="row px-3 flex-nowrap">
+                                <p class="description">The ideal course for your child to deepen their skills and expertise in Robotics</p>
+                            </div>
+                            <h6 className="px-3 mb-3 bold">Mode Online / Offline</h6>
+                            <div class="row px-3 flex-nowrap">
                                 <div class="col d-flex flex-column fw-bold align-items-center">
                                     <span class="keyword">20+</span>
                                     <span>Classes</span>
@@ -166,10 +170,13 @@ const Robotics = () => {
                         <div class="shadow p-2 rounded-4  h-100">
                             <div class="image-container">
                                 <img src={roboticsAdvance} alt="roboticsAdvance" class="thumbnail-image rounded-4" />
-                            </div><div class=" p-3">
+                            </div>
+                            <div class=" p-3">
                                 <h5 class="keyword">Advance Level</h5>
                                 <p class="description">The advanced course for your child to excel and become a master in the world of Robotics.</p>
-                            </div><div class="row px-3 flex-nowrap">
+                            </div>
+                            <h6 className="px-3 mb-3 bold">Mode Online / Offline</h6>
+                            <div class="row px-3 flex-nowrap">
                                 <div class="col d-flex flex-column fw-bold align-items-center">
                                     <span class="keyword">30+</span>
                                     <span>Classes</span>
@@ -213,6 +220,7 @@ const Robotics = () => {
                                 <h5 class="keyword">Basic Level</h5>
                                 <p class="description">The perfect course for your kid to start mastering skills in the world of Coding</p>
                             </div>
+                            <h6 className="px-3 mb-3 bold">Mode Online / Offline</h6>
                             <div class="row px-3 flex-nowrap">
                                 <div class="col d-flex flex-column fw-bold align-items-center">
                                     <span class="keyword">10+</span>
@@ -252,6 +260,7 @@ const Robotics = () => {
                                 <h5 class="keyword">Intermediate Level</h5>
                                 <p class="description">The ideal course for your child to deepen their skills and expertise in Coding</p>
                             </div>
+                            <h6 className="px-3 mb-3 bold">Mode Online / Offline</h6>
                             <div class="row px-3 flex-nowrap">
                                 <div class="col d-flex flex-column fw-bold align-items-center">
                                     <span class="keyword">20+</span>
@@ -289,10 +298,13 @@ const Robotics = () => {
                         <div class="shadow p-2 rounded-4  h-100">
                             <div class="image-container">
                                 <img src={codingAdvance} alt="codingAdvance" class="thumbnail-image rounded-4" />
-                            </div><div class=" p-3">
+                            </div>
+                            <div class=" p-3">
                                 <h5 class="keyword">Advance Level</h5>
                                 <p class="description">The advanced course for your child to excel and become a master in the world of Coding.</p>
-                            </div><div class="row px-3 flex-nowrap">
+                            </div>
+                            <h6 className="px-3 mb-3 bold">Mode Online / Offline</h6>
+                            <div class="row px-3 flex-nowrap">
                                 <div class="col d-flex flex-column fw-bold align-items-center"><span class="keyword">30+</span>
                                     <span>Classes</span>
                                 </div>
@@ -334,6 +346,7 @@ const Robotics = () => {
                                 <h5 class="keyword">Drones</h5>
                                 <p class="description">The advanced drone course to elevate your child’s skills and help them dominate the skies of technology.</p>
                             </div>
+                            <h6 className="px-3 mb-3 bold">Mode Online / Offline</h6>
                             <div class="row px-3 flex-nowrap"><div class="col d-flex flex-column fw-bold align-items-center">
                                 <span class="keyword">30+</span><span>Classes</span>
                             </div>

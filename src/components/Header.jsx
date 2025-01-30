@@ -4,7 +4,7 @@ import { Link, useLocation } from "react-router-dom";
 import logo from "../assets/logo.png";
 
 const Header = () => {
-    const location = useLocation();
+    // const location = useLocation();
     const [expanded, setExpanded] = useState(false);
 
     const handleSelect = () => {
@@ -24,7 +24,7 @@ const Header = () => {
                     <span className="logo">R2C</span>
                     <span className="logo-name">Robotics</span>
                 </Navbar.Brand>
-                <Navbar.Toggle
+                {/* <Navbar.Toggle
                     aria-controls="responsive-navbar-nav"
                     onClick={() => setExpanded(!expanded)}
                 />
@@ -64,7 +64,7 @@ const Header = () => {
                         </Nav.Link>
                     </Nav>
                     <Nav></Nav>
-                </Navbar.Collapse>
+                </Navbar.Collapse> */}
             </>
         </Navbar>
     );

@@ -50,9 +50,9 @@ a.nav-link {
 .logo-name {
   font-family: "Marcellus", serif;
   font-size: 28px;
-  font-weight: 700;
+  font-weight: 700 !important;
   color: #0acb0a;
-  text-shadow: #16404D 1px 2px 2px;
+  text-shadow: #16404D 1px 2px 1px;
 }
 
 .footer {
