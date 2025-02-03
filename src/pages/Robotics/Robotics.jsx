@@ -48,6 +48,20 @@ const Robotics = () => {
                     </div>
                 </div>
             </div>
+            {/* <div className="container">
+                <div>
+                    <iframe
+                        src="https://www.instagram.com/reel/DFeO6WAiu8O/?igsh=MXdneXV2ZHhyam9zbg%3D%3D"
+                        width="400"
+                        height="480"
+                        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                        allowfullscreen
+                        frameborder="0"
+                    ></iframe>
+                </div>
+            </div> */}
+
+
             {/* course designed person */}
             <div className="container">
                 <div>
