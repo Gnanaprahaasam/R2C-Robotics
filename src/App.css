@@ -80,3 +80,9 @@ a.nav-link {
 .keyword {
   color: var(--key-word);
 }
+
+.count{
+  font-weight: 800 !important;
+  font-family:  serif;
+  font-size: 16px;
+}

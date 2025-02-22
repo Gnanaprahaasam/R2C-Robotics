@@ -105,16 +105,16 @@ const Robotics = () => {
                             <h6 className="px-3 mb-3 bold">Mode Online / Offline</h6>
                             <div className="row px-3 flex-nowrap">
                                 <div className="col d-flex flex-column fw-bold align-items-center">
-                                    <span className="keyword">10+</span>
+                                    <span className="keyword count">10+</span>
                                     <span>classes</span>
                                 </div>
                                 <div className="col d-flex flex-column fw-bold  align-items-center">
-                                    <span className="keyword">5+</span>
+                                    <span className="keyword count">5+</span>
                                     <span>Projects</span>
                                 </div>
                                 <div className="col">
                                     <div className="col d-flex flex-column fw-bold  align-items-center">
-                                        <span className="keyword">10+</span>
+                                        <span className="keyword count">10+</span>
                                         <span>Quizzes</span>
                                     </div>
                                 </div>
@@ -122,7 +122,7 @@ const Robotics = () => {
                             <div className="row p-3">
                                 <div className="align-self-end">
                                     <div className="text-break">
-                                        <h6 className="bold">Strarts from  <span className="text-decoration-line-through">Rs 1999/-</span> <span className="keyword">Rs 999/-</span>
+                                        <h6 className="bold">Strarts from  <span className="text-decoration-line-through">Rs 1999/-</span> <span className="keyword count">Rs 999/-</span>
                                         </h6>
                                     </div>
                                     <div>
@@ -149,21 +149,21 @@ const Robotics = () => {
                             <h6 className="px-3 mb-3 bold">Mode Online / Offline</h6>
                             <div className="row px-3 flex-nowrap">
                                 <div className="col d-flex flex-column fw-bold align-items-center">
-                                    <span className="keyword">20+</span>
+                                    <span className="keyword count">20+</span>
                                     <span>classes</span>
                                 </div>
                                 <div className="col d-flex flex-column fw-bold  align-items-center">
-                                    <span className="keyword">10+</span>
+                                    <span className="keyword count">10+</span>
                                     <span>Projects</span></div>
                                 <div className="col">
                                     <div className="col d-flex flex-column fw-bold  align-items-center">
-                                        <span className="keyword">10+</span><span>Quizzes</span>
+                                        <span className="keyword count">10+</span><span>Quizzes</span>
                                     </div>
                                 </div>
                             </div>
                             <div className=" row p-3"><div className="align-self-end">
                                 <div className=" text-break">
-                                    <h6 className="bold">Strarts from  <span className="text-decoration-line-through">Rs 2999/</span> <span className="keyword">Rs 1999/-</span>
+                                    <h6 className="bold">Strarts from  <span className="text-decoration-line-through">Rs 2999/</span> <span className="keyword count">Rs 1999/-</span>
                                     </h6>
                                 </div>
                                 <div>
@@ -187,16 +187,16 @@ const Robotics = () => {
                             <h6 className="px-3 mb-3 bold">Mode Online / Offline</h6>
                             <div className="row px-3 flex-nowrap">
                                 <div className="col d-flex flex-column fw-bold align-items-center">
-                                    <span className="keyword">30+</span>
+                                    <span className="keyword count">30+</span>
                                     <span>classes</span>
                                 </div>
                                 <div className="col d-flex flex-column fw-bold  align-items-center">
-                                    <span className="keyword">15+</span>
+                                    <span className="keyword count">15+</span>
                                     <span>Projects</span>
                                 </div>
                                 <div className="col">
                                     <div className="col d-flex flex-column fw-bold  align-items-center">
-                                        <span className="keyword">10+</span>
+                                        <span className="keyword count">10+</span>
                                         <span>Quizzes</span>
                                     </div>
                                 </div>
@@ -204,7 +204,7 @@ const Robotics = () => {
                             <div className="row p-3">
                                 <div className="align-self-end">
                                     <div className="d-flex flex-wrap text-break">
-                                        <h6 className="bold">Strarts from  <span className="text-decoration-line-through">Rs 3999/</span> <span className="keyword">Rs 2999/-</span>
+                                        <h6 className="bold">Strarts from  <span className="text-decoration-line-through">Rs 3999/</span> <span className="keyword count">Rs 2999/-</span>
                                         </h6>
                                     </div>
                                     <div>
@@ -232,16 +232,16 @@ const Robotics = () => {
                             <h6 className="px-3 mb-3 bold">Mode Online / Offline</h6>
                             <div className="row px-3 flex-nowrap">
                                 <div className="col d-flex flex-column fw-bold align-items-center">
-                                    <span className="keyword">10+</span>
+                                    <span className="keyword count">10+</span>
                                     <span>classes</span>
                                 </div>
                                 <div className="col d-flex flex-column fw-bold  align-items-center">
-                                    <span className="keyword">5+</span>
+                                    <span className="keyword count">5+</span>
                                     <span>Projects</span>
                                 </div>
                                 <div className="col">
                                     <div className="col d-flex flex-column fw-bold  align-items-center">
-                                        <span className="keyword">10+</span>
+                                        <span className="keyword count">10+</span>
                                         <span>Quizzes</span>
                                     </div>
                                 </div>
@@ -249,7 +249,7 @@ const Robotics = () => {
                             <div className=" row p-3">
                                 <div className="align-self-end">
                                     <div className="d-flex flex-wrap text-break ">
-                                        <h6 className="bold">Strarts from <span className="text-decoration-line-through">Rs 1999/</span><span className="keyword"> Rs 999/-</span></h6>
+                                        <h6 className="bold">Strarts from <span className="text-decoration-line-through">Rs 1999/</span><span className="keyword count"> Rs 999/-</span></h6>
                                     </div>
                                     <div>
                                         <a href="https://wa.me/+917904189145" target="_blank" rel="noopener noreferrer" className="text-decoration-none">
@@ -272,15 +272,16 @@ const Robotics = () => {
                             <h6 className="px-3 mb-3 bold">Mode Online / Offline</h6>
                             <div className="row px-3 flex-nowrap">
                                 <div className="col d-flex flex-column fw-bold align-items-center">
-                                    <span className="keyword">20+</span>
+                                    <span className="keyword count">20+</span>
                                     <span>classes</span>
                                 </div>
                                 <div className="col d-flex flex-column fw-bold  align-items-center">
-                                    <span className="keyword">10+</span>
+                                    <span className="keyword count">10+</span>
                                     <span>Projects</span>
                                 </div>
                                 <div className="col">
-                                    <div className="col d-flex flex-column fw-bold  align-items-center"><span className="keyword">10+</span>
+                                    <div className="col d-flex flex-column fw-bold  align-items-center">
+                                        <span className="keyword count">10+</span>
                                         <span>Quizzes</span>
                                     </div>
                                 </div>
@@ -288,7 +289,7 @@ const Robotics = () => {
                             <div className="row p-3">
                                 <div className="align-self-end">
                                     <div className="d-flex flex-wrap text-break">
-                                        <h6 className="bold">Strarts from <span className="text-decoration-line-through">Rs 2999/</span><span className="keyword"> Rs 1999/-</span>
+                                        <h6 className="bold">Strarts from <span className="text-decoration-line-through">Rs 2999/</span><span className="keyword count"> Rs 1999/-</span>
                                         </h6>
                                     </div>
                                     <div>
@@ -314,15 +315,16 @@ const Robotics = () => {
                             </div>
                             <h6 className="px-3 mb-3 bold">Mode Online / Offline</h6>
                             <div className="row px-3 flex-nowrap">
-                                <div className="col d-flex flex-column fw-bold align-items-center"><span className="keyword">30+</span>
+                                <div className="col d-flex flex-column fw-bold align-items-center">
+                                    <span className="keyword count">30+</span>
                                     <span>classes</span>
                                 </div>
                                 <div className="col d-flex flex-column fw-bold  align-items-center">
-                                    <span className="keyword">30+</span><span>Projects</span>
+                                    <span className="keyword count">30+</span><span>Projects</span>
                                 </div>
                                 <div className="col">
                                     <div className="col d-flex flex-column fw-bold  align-items-center">
-                                        <span className="keyword">15+</span>
+                                        <span className="keyword count">15+</span>
                                         <span>Quizzes</span>
                                     </div>
                                 </div>
@@ -330,7 +332,7 @@ const Robotics = () => {
                             <div className=" row p-3 ">
                                 <div className="align-self-end">
                                     <div className="d-flex flex-wrap text-break">
-                                        <h6 className="bold">Strarts from <span className="text-decoration-line-through">Rs 3999/</span><span className="keyword"> Rs 2999/-</span>
+                                        <h6 className="bold">Strarts from <span className="text-decoration-line-through">Rs 3999/</span><span className="keyword count"> Rs 2999/-</span>
                                         </h6>
                                     </div>
                                     <div>
@@ -357,16 +359,16 @@ const Robotics = () => {
                             </div>
                             <h6 className="px-3 mb-3 bold">Mode Online / Offline</h6>
                             <div className="row px-3 flex-nowrap"><div className="col d-flex flex-column fw-bold align-items-center">
-                                <span className="keyword">30+</span>
+                                <span className="keyword count">30+</span>
                                 <span>classes</span>
                             </div>
                                 <div className="col d-flex flex-column fw-bold  align-items-center">
-                                    <span className="keyword">10+</span>
+                                    <span className="keyword count">10+</span>
                                     <span>Projects</span>
                                 </div>
                                 <div className="col">
                                     <div className="col d-flex flex-column fw-bold  align-items-center">
-                                        <span className="keyword">10+</span>
+                                        <span className="keyword count">10+</span>
                                         <span>Quizzes</span>
                                     </div>
                                 </div>
@@ -374,7 +376,7 @@ const Robotics = () => {
                             <div className="row p-3">
                                 <div className="align-self-end">
                                     <div className="d-flex flex-wrap text-break">
-                                        <h6 className="bold">Strarts from  <span className="text-decoration-line-through">Rs 3999/</span> <span className="keyword">Rs 2999/-</span>
+                                        <h6 className="bold">Strarts from  <span className="text-decoration-line-through">Rs 3999/</span> <span className="keyword count">Rs 2999/-</span>
                                         </h6>
                                     </div>
                                     <div>
