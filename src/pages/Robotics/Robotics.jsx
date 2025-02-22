@@ -106,7 +106,7 @@ const Robotics = () => {
                             <div className="row px-3 flex-nowrap">
                                 <div className="col d-flex flex-column fw-bold align-items-center">
                                     <span className="keyword">10+</span>
-                                    <span>classNamees</span>
+                                    <span>classes</span>
                                 </div>
                                 <div className="col d-flex flex-column fw-bold  align-items-center">
                                     <span className="keyword">5+</span>
@@ -150,7 +150,7 @@ const Robotics = () => {
                             <div className="row px-3 flex-nowrap">
                                 <div className="col d-flex flex-column fw-bold align-items-center">
                                     <span className="keyword">20+</span>
-                                    <span>classNamees</span>
+                                    <span>classes</span>
                                 </div>
                                 <div className="col d-flex flex-column fw-bold  align-items-center">
                                     <span className="keyword">10+</span>
@@ -188,7 +188,7 @@ const Robotics = () => {
                             <div className="row px-3 flex-nowrap">
                                 <div className="col d-flex flex-column fw-bold align-items-center">
                                     <span className="keyword">30+</span>
-                                    <span>classNamees</span>
+                                    <span>classes</span>
                                 </div>
                                 <div className="col d-flex flex-column fw-bold  align-items-center">
                                     <span className="keyword">15+</span>
@@ -233,7 +233,7 @@ const Robotics = () => {
                             <div className="row px-3 flex-nowrap">
                                 <div className="col d-flex flex-column fw-bold align-items-center">
                                     <span className="keyword">10+</span>
-                                    <span>classNamees</span>
+                                    <span>classes</span>
                                 </div>
                                 <div className="col d-flex flex-column fw-bold  align-items-center">
                                     <span className="keyword">5+</span>
@@ -273,7 +273,7 @@ const Robotics = () => {
                             <div className="row px-3 flex-nowrap">
                                 <div className="col d-flex flex-column fw-bold align-items-center">
                                     <span className="keyword">20+</span>
-                                    <span>classNamees</span>
+                                    <span>classes</span>
                                 </div>
                                 <div className="col d-flex flex-column fw-bold  align-items-center">
                                     <span className="keyword">10+</span>
@@ -315,7 +315,7 @@ const Robotics = () => {
                             <h6 className="px-3 mb-3 bold">Mode Online / Offline</h6>
                             <div className="row px-3 flex-nowrap">
                                 <div className="col d-flex flex-column fw-bold align-items-center"><span className="keyword">30+</span>
-                                    <span>classNamees</span>
+                                    <span>classes</span>
                                 </div>
                                 <div className="col d-flex flex-column fw-bold  align-items-center">
                                     <span className="keyword">30+</span><span>Projects</span>
@@ -357,9 +357,12 @@ const Robotics = () => {
                             </div>
                             <h6 className="px-3 mb-3 bold">Mode Online / Offline</h6>
                             <div className="row px-3 flex-nowrap"><div className="col d-flex flex-column fw-bold align-items-center">
-                                <span className="keyword">30+</span><span>classNamees</span>
+                                <span className="keyword">30+</span>
+                                <span>classes</span>
                             </div>
-                                <div className="col d-flex flex-column fw-bold  align-items-center"><span className="keyword">10+</span><span>Projects</span>
+                                <div className="col d-flex flex-column fw-bold  align-items-center">
+                                    <span className="keyword">10+</span>
+                                    <span>Projects</span>
                                 </div>
                                 <div className="col">
                                     <div className="col d-flex flex-column fw-bold  align-items-center">
@@ -397,7 +400,7 @@ const Robotics = () => {
                             </div><div className="row px-3 flex-nowrap">
                                 <div className="col d-flex flex-column fw-bold align-items-center">
                                     <span className="keyword">30+</span>
-                                    <span>classNamees</span>
+                                    <span>classes</span>
                                 </div>
                                 <div className="col d-flex flex-column fw-bold  align-items-center">
                                     <span className="keyword">10+</span>
