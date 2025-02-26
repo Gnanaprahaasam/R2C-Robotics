@@ -24,30 +24,36 @@ import lakshmipriya from "../../assets/Lakshmipriya.jpg";
 import { AiOutlineCheck } from "react-icons/ai";
 import { BsWhatsapp } from "react-icons/bs";
 import "./Robotics.css";
+import { Link } from "react-router-dom";
 
 const Robotics = () => {
     return (
-        <div className="robotics container-fluid">
-            <div className="row d-flex flex-row-reverse align-items-center robotics-heroSection mb-5 ">
-                <div className="col-12 col-md-6 p-sm-5 p-3">
-                    <div>
-                        <img src={robotic} alt="robotic" className="img-fluid shadow-lg" width={"100%"} />
+        <div className="robotics overflow-hidden">
+            <div className="container-fluid">
+                <div className="row d-flex flex-row-reverse align-items-center robotics-heroSection mb-5 ">
+                    <div className="col-12 col-md-6 p-sm-5 p-3">
+                        <div>
+                            <img src={robotic} alt="robotic" className="img-fluid shadow-lg" width={"100%"} />
+                        </div>
                     </div>
-                </div>
-                <div className="col-12 col-md-6 p-5 ">
-                    <div className="d-flex flex-column align-items-center justify-content-center">
-                        <h1 className="">Robotics, Coding, Drones and Satellite</h1>
-                        <h5 className="bold">Both Online and Offline Live 1:1 classNamees for Kids (Ages 8+)</h5>
-                        <ul className="list-unstyled lh-lg">
-                            <li ><AiOutlineCheck size={20} className="text-white" /> Live 1:1 classNamees from experts</li>
-                            <li><AiOutlineCheck size={20} className="text-white" /> Learn the concepts</li>
-                            <li><AiOutlineCheck size={20} className="text-white" /> Develop project(s) from scratch</li>
-                            <li><AiOutlineCheck size={20} className="text-white" /> Kit shipped to you in 24 hours</li>
-                            <li><AiOutlineCheck size={20} className="text-white" /> Earn smart certificate & showcase skills</li>
-                        </ul>
+                    <div className="col-12 col-md-6 p-5 ">
+                        <div className="d-flex flex-column align-items-center justify-content-center">
+                            <h1 className="">Robotics, Coding, Drones and Satellite</h1>
+                            <h5 className="bold">Both Online & Offline class for Kids (Ages 8+)</h5>
+                            <ul className="list-unstyled lh-lg semi-bold">
+                                {/* <li ><AiOutlineCheck size={20} className="text-white" /> Live 1:1 class from experts</li> */}
+                                <li><AiOutlineCheck size={20} className="text-white" /> Live class and Learn the concepts from experts</li>
+                                <li><AiOutlineCheck size={20} className="text-white" /> Develop project(s) from scratch</li>
+                                <li><AiOutlineCheck size={20} className="text-white" /> Kit shipped to you in 24 hours</li>
+                                <li><AiOutlineCheck size={20} className="text-white" /> Earn smart certificate & showcase skills</li>
+                                <li><AiOutlineCheck size={20} className="text-white" />Only Practical Hands On training (No theroy)</li>
+                                <li><AiOutlineCheck size={20} className="text-white" />Individual Attention</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
+
             <div className="container ">
                 <div className="row justify-content-center mb-3">
                     <div className="col-md-8 ">
@@ -61,16 +67,16 @@ const Robotics = () => {
             <div className="container">
                 <div>
                     <h2 className="bold">Learn from the best</h2>
-                    <h3 className="mb-2 bold">Courses designed by alumni of TCS and Anna University.</h3>
+                    <h3 className="mb-2 bold text-secondary">Courses designed by alumni of TCS & Anna University.</h3>
 
                     <div className="row my-3 g-3">
                         <div className="col-sm-12 col-md-6">
                             <div className="border rounded-2 p-3 clearfix h-100">
                                 <img src={boobalan} alt="userProfile" className="img-fluid float-start m-2 me-3" width="100" />
                                 <div>
-                                    <p className="text-wrap">"Over the last 20 years, Prof. Boobalan T., an esteemed professor in Electronics at Anna University, has achieved remarkable success in the field of robotics, completing 12 patents and inspiring countless students with his expertise and innovation."
+                                    <p className="text-wrap semi-bold">"Over the last 20 years, Prof. Boobalan T., an esteemed professor in Electronics at Anna University, has achieved remarkable success in the field of robotics, completing 300+ projects and filed 12 patents and inspiring countless students with his expertise and innovation."
                                     </p>
-                                    <div className="author float-end ">-Prof. Boobalan.T, Professor in Electronics, Anna University</div>
+                                    <div className="author float-end semi-bold">-Prof. Boobalan.T, <br />Professor in Electronics, Anna University</div>
                                 </div>
                             </div>
                         </div>
@@ -78,9 +84,10 @@ const Robotics = () => {
                             <div className="border rounded-2 p-3  clearfix h-100">
                                 <img src={lakshmipriya} alt="userProfile" className="img-fluid float-start m-2 me-3" width="100" />
                                 <div className="">
-                                    <p className="text-wrap">"
+                                    <p className="text-wrap semi-bold">"
                                         With over 13 years of experience, L. Lakshmipriya, a Software Engineer at TCS, has made significant contributions to various projects, demonstrating expertise in software development. She has been involved in all stages of backend application development, including analysis, production, and support."</p>
-                                    <div className="author float-end align-self-bottom"> -Mrs.Lakshmipriya, Software Engineer</div>
+                                    <div className="author float-end align-self-bottom semi-bold"> -Mrs.Lakshmipriya, 
+                                        Software Engineer</div> 
                                 </div>
                             </div>
                         </div>
@@ -100,7 +107,7 @@ const Robotics = () => {
                             </div>
                             <div className=" p-3">
                                 <h5 className="keyword">Basic Level</h5>
-                                <p className="description">The perfect course for your kid to start mastering skills in the world of Robotics</p>
+                                <p className="description">The perfect course for your kid to start mastering 21st Century skills in the world of Robotics</p>
                             </div>
                             <h6 className="px-3 mb-3 bold">Mode Online / Offline</h6>
                             <div className="row px-3 flex-nowrap">
@@ -144,7 +151,7 @@ const Robotics = () => {
                             </div>
                             <div className=" p-3">
                                 <h5 className="keyword">Intermediate Level</h5>
-                                <p className="description">The ideal course for your child to deepen their skills and expertise in Robotics</p>
+                                <p className="description">The ideal course for your child to empower with 21st Century skills and expertise in Robotics</p>
                             </div>
                             <h6 className="px-3 mb-3 bold">Mode Online / Offline</h6>
                             <div className="row px-3 flex-nowrap">
@@ -227,7 +234,7 @@ const Robotics = () => {
                             </div>
                             <div className=" p-3">
                                 <h5 className="keyword">Basic Level</h5>
-                                <p className="description">The perfect course for your kid to start mastering skills in the world of Coding</p>
+                                <p className="description">The perfect course for your kid to start mastering 21st Century skills in the world of Coding</p>
                             </div>
                             <h6 className="px-3 mb-3 bold">Mode Online / Offline</h6>
                             <div className="row px-3 flex-nowrap">
@@ -267,7 +274,7 @@ const Robotics = () => {
                             </div>
                             <div className=" p-3">
                                 <h5 className="keyword">Intermediate Level</h5>
-                                <p className="description">The ideal course for your child to deepen their skills and expertise in Coding</p>
+                                <p className="description">The ideal course for your child to empower with 21st Century skills and expertise in Coding</p>
                             </div>
                             <h6 className="px-3 mb-3 bold">Mode Online / Offline</h6>
                             <div className="row px-3 flex-nowrap">
@@ -449,7 +456,7 @@ const Robotics = () => {
                                 <img src={onlineLive} alt="onlineLive" className="img-fluid" />
                             </div>
                             <div className="col-9">
-                                <h4 className="semi-bold">1:1 Online Live className</h4>
+                                <h4 className="semi-bold">1:1 Online Live class</h4>
                                 <p> 1-1 live online sessions with the educator for your kid</p></div></div><div className="row flex-nowrap d-flex align-items-center">
                             <div className="col-3">
                                 <img src={certificate} alt="certificate" className="img-fluid" />
@@ -464,7 +471,7 @@ const Robotics = () => {
                                 <img src={personalized} alt="personalized" className="img-fluid" />
                             </div>
                             <div className="col-9">
-                                <h4 className="semi-bold">Personalized classNamees</h4>
+                                <h4 className="semi-bold">Personalized classes</h4>
                                 <p> Help your kid learn directly from experts &amp; build projects from anywhere</p>
                             </div>
                         </div>
@@ -517,7 +524,7 @@ const Robotics = () => {
                         <img src={stemCourse} alt="STEMCourse" width="100%" />
                     </div><div className="col-md-7 col-12 px-5">
                         <h5 className="bold mb-2">Why Choose STEM Courses for Your Child?</h5>
-                        <p className="pb-3" style={{ textAlign: "justify" }}>Give your child the opportunity to shape the future of technology. By nurturing curiosity and building confidence at a young age, you can set the foundation for their successful career. These courses are designed to do just that—help your child grasp how technology is transforming the world and how to solve real-world problems with it. More importantly, the classNamees inspire a love for technology while instilling the confidence to dream big and achieve greatness.
+                        <p className="pb-3" style={{ textAlign: "justify" }}>Give your child the opportunity to shape the future of technology. By nurturing curiosity and building confidence at a young age, you can set the foundation for their successful career. These courses are designed to do just that—help your child grasp how technology is transforming the world and how to solve real-world problems with it. More importantly, the classes inspire a love for technology while instilling the confidence to dream big and achieve greatness.
                         </p>
                     </div>
                 </div>
@@ -532,7 +539,7 @@ const Robotics = () => {
                     </div>
                     <div className="col-md-7 col-12 p-5">
                         <h5 className="bold">What Will Your Child Learn in These STEM Online Courses?</h5>
-                        <p style={{ textAlign: "justify" }}>These STEM online courses are thoughtfully designed to nurture your child's analytical and logical thinking skills. They aim to enhance creativity and problem-solving abilities while making technology an enjoyable and engaging experience. By fostering curiosity, these courses encourage your child to explore deeper and discover new possibilities. The confidence gained from building projects will inspire them to dream big and aspire to create transformative technologies or companies in the future. All classNamees are conducted in a live 1:1 setting by experienced instructors, ensuring personalized attention and focus. Your child will not only learn but also enjoy the hands-on process of creating projects.</p>
+                        <p style={{ textAlign: "justify" }}>These STEM online courses are thoughtfully designed to nurture your child's analytical and logical thinking skills. They aim to enhance creativity and problem-solving abilities while making technology an enjoyable and engaging experience. By fostering curiosity, these courses encourage your child to explore deeper and discover new possibilities. The confidence gained from building projects will inspire them to dream big and aspire to create transformative technologies or companies in the future. All classes are conducted in a live 1:1 setting by experienced instructors, ensuring personalized attention and focus. Your child will not only learn but also enjoy the hands-on process of creating projects.</p>
                     </div>
                 </div>
             </div>
@@ -542,18 +549,18 @@ const Robotics = () => {
                 <h2 className="bold text-center mb-3">Frequently Asked Questions about STEM Online Courses</h2>
                 <div>
                     <h4 className="semi-bold">How Will My Child Learn and Build Projects?</h4>
-                    <p>Once you enroll, a mentor will contact you to finalize a schedule that fits your convenience. All required kits or software tools will be dispatched within 24 hours and come with a 100% replacement guarantee. You can start with a free demo className to see how the program works. Payment is only required once you're confident in the unique learning approach we offer.</p>
+                    <p>Once you enroll, a mentor will contact you to finalize a schedule that fits your convenience. All required kits or software tools will be dispatched within 24 hours and come with a 100% replacement guarantee. You can start with a free demo class to see how the program works. Payment is only required once you're confident in the unique learning approach we offer.</p>
                 </div>
                 <hr />
                 <div>
                     <h4 className="semi-bold">Are the Learning Modules in These STEM Online Courses Difficult?</h4>
-                    <p>The courses are designed for students with no prior experience, ensuring accessibility for all learners. Our expert instructors adapt the pace and teaching methods to suit your child’s individual needs. With personalized 1:1 classNamees, the learning process becomes both efficient and effective.
+                    <p>The courses are designed for students with no prior experience, ensuring accessibility for all learners. Our expert instructors adapt the pace and teaching methods to suit your child’s individual needs. With personalized 1:1 classes, the learning process becomes both efficient and effective.
                     </p>
                 </div>
                 <hr />
                 <div>
                     <h4 className="semi-bold">How Long Will It Take for My Child to Complete These Courses?</h4>
-                    <p>Course durations range from 10 to 150 classNamees, with each className lasting 1 hour. We recommend scheduling 2 classNamees per week for the best results. After completing a trial className, you’ll have a clearer understanding of the course options and can choose the one that best meets your requirements.</p>
+                    <p>Course durations range from 10 to 150 classes, with each class lasting 1 hour. We recommend scheduling 2 classes per week for the best results. After completing a trial class, you’ll have a clearer understanding of the course options and can choose the one that best meets your requirements.</p>
                 </div>
                 <hr />
                 <div>
@@ -567,7 +574,7 @@ const Robotics = () => {
                     </p>
                     <p><b>Note:</b>
                         <br />
-                        For children in the early stages of learning, using readymade kits can simplify the process and make learning more enjoyable. As they advance, we transition to more hands-on methods, as recommended by our instructors during the free trial className.
+                        For children in the early stages of learning, using readymade kits can simplify the process and make learning more enjoyable. As they advance, we transition to more hands-on methods, as recommended by our instructors during the free trial class.
                     </p>
                 </div>
                 <hr />
@@ -578,7 +585,7 @@ const Robotics = () => {
                 <hr />
                 <div>
                     <h4 className="semi-bold">Who Will Clarify My Child’s Doubts?</h4>
-                    <p>During live 1:1 classNamees, your child can ask our experts any number of questions, ensuring their doubts are resolved instantly. Personalized attention ensures no query goes unanswered.</p>
+                    <p>During live 1:1 classes, your child can ask our experts any number of questions, ensuring their doubts are resolved instantly. Personalized attention ensures no query goes unanswered.</p>
                 </div>
                 <hr />
                 <div>
@@ -587,12 +594,12 @@ const Robotics = () => {
                 </div>
                 <hr />
                 <div>
-                    <h4 className="semi-bold">When Will the classNamees Be Scheduled?</h4>
+                    <h4 className="semi-bold">When Will the classes Be Scheduled?</h4>
                     <p>Once you enroll, a mentor will contact you to coordinate and finalize a schedule that works best for your child.</p>
                 </div>
                 <hr />
                 <div>
-                    <h4 className="semi-bold">What Happens If My Child Misses a className?</h4><p>Since these are 1:1 sessions, you can easily request the mentor to reschedule missed classNamees at a convenient time.</p></div><hr />
+                    <h4 className="semi-bold">What Happens If My Child Misses a class?</h4><p>Since these are 1:1 sessions, you can easily request the mentor to reschedule missed classes at a convenient time.</p></div><hr />
                 <div>
                     <h4 className="semi-bold">When Will the Kit Arrive?</h4><p>The kit is thoroughly tested, sanitized, and dispatched within 24 hours of enrollment. Depending on your location, it typically arrives within 2–3 working days.</p></div>
                 <hr />
@@ -602,6 +609,15 @@ const Robotics = () => {
                 </div>
             </div>
 
+            {/* footer */}
+
+            <div className="footer p-5 w-100">
+                <div className="d-flex justify-content-center align-items-center flex-wrap pb-2">
+                    <div>Copyright &#169; 2025 &nbsp; </div>
+                    <div>| &nbsp;<Link to="https://R2C.co.in" className="keyword">www.R2C.co.in</Link> &nbsp; |</div>
+                    <div>&nbsp; All rights reserved</div>
+                </div>
+            </div>
         </div>
     );
 }
